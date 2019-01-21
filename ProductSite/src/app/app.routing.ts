@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 
 const routes: Routes = [
-    { path: 'products', component: CalendarComponent },
+    { path: 'calendar', component: CalendarComponent },
     { path: 'about', component: AboutPageComponent }
 ];
 
