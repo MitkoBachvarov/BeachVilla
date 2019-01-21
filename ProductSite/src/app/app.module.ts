@@ -5,8 +5,7 @@ import { MatToolbarModule,
          MatSidenavModule,
          MatIconModule,
          MatListModule,
-         MatMenuModule,
-        } from '@angular/material';
+         MatMenuModule, } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
