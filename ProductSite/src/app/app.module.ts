@@ -13,12 +13,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MyNavComponent } from './my-nav/my-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { CalendarComponent } from './calendar/calendar.component';
+import { AboutPageComponent } from './about-page/about-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyNavComponent,
-    CalendarComponent
+    CalendarComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
