@@ -14,13 +14,15 @@ import { MyNavComponent } from './my-nav/my-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { CalendarComponent } from './calendar/calendar.component';
 import { AboutPageComponent } from './about-page/about-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyNavComponent,
     CalendarComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
